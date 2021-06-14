@@ -1,4 +1,6 @@
-# Twitter bot tutorial: Jumpstart Program 2021 edition
+# Currently being revised! 
+
+Twitter bot tutorial: Jumpstart Program 2021 edition
 
 Let's make a bot!! These instructions were written for participants in the [2021 Jumpstart Program](https://www.lib.ncsu.edu/jumpstart), but they're publicly viewable for anyone to follow.
 
