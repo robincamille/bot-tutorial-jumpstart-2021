@@ -93,13 +93,14 @@ This script sends out five tweets from the first five lines of an external .txt 
  
 ## Advanced bot: talk-mashup-bot.py
 
-This script mixes up talk titles from ALA Annual Conferences 2016–2021. The mash-up titles are composed of two halves, each from a real ALA program talk. This script also demonstrates how to choose a random line from a title using Python's *random* library.
+This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First, it takes a list of talks and splits those titles into potential beginnings and endings. Then, it chooses a random beginning and a random ending, smushes them together into a new talk title, and tweets it. This script also introduces a function, splitTitle, and demonstrates how to choose a random item in a list using Python's *random* library.
 
 *Change it up!*
-- Add a line of text that comes before the new talk title, like "Your new ALA session is..."
-- Make an extra long title by using two different lines from the "beginners" file.
-- Advanced: Some parts of this code are repetitive. Make a new function for opening the two files and choosing a random line.
-- Advanced: Use another file instead of the beginners/enders file. Adapt an existing [word list](https://github.com/dariusk/corpora/tree/master/data). (You can just make a new .txt file, or if you're feeling Very Advanced, read in the file using Python's json features — [example](https://github.com/robincamille/bot-tutorial-jumpstart-2020/blob/master/poembot.py).)
+- In the tweet (line 94), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
+- Add a new "splitting point" to the list `split_at`, like "with."
+- Use another .txt file instead of `ala_all-talk-titles.txt`. For example, make a new .txt file with movie names or book titles. 
+- Advanced: Some parts of this code are repetitive. Use a `for` loop in the part of the script that makes `beginners_list_final` and `enders_list_final` so that lines of code don't repeat.
+
 
 ## Commit your changes with Git 
 

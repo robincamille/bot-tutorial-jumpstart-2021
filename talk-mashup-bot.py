@@ -18,6 +18,7 @@ auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
+
 def splitTitles(filename):
     """
     This function takes text file and splits each line in half.
@@ -45,28 +46,17 @@ def splitTitles(filename):
         i = -1
         for word in line:
             i += 1
-            # if word[-1] == ':':
-            #     beginners_list.append(line[0:i+1])
-            #     enders_list.append(line[i+1:])
-            # elif word[-1] == '?':
-            #     beginners_list.append(line[0:i+1])
-            #     enders_list.append(line[i+1:])
-            # elif word[-1] == '!':
-            #     beginners_list.append(line[0:i+1])
-            #     enders_list.append(line[i+1:])
-            if word.lower() in split_at:
+            if word.lower() in split_at: #split at known splitting points
                 beginners_list.append(line[0:i+1])
                 enders_list.append(line[i+1:])
-            else:
-                #unsplit_titles.append(line)
+            else: #if title doesn't include "at" or other splitting points...
                 if len(line) > 4: #titles of <5 words tend to be names, or might split uninterestingly
                     pass
                 else:
                     mid = len(line) / 2 #find rough halfway point in line
-                    mid = int(mid) #turn to integer
-                    beginners_list.append(line[:mid])
+                    mid = int(mid) #turn that point into an integer
+                    beginners_list.append(line[:mid]) #split title along that halfway point
                     enders_list.append(line[mid:])
-                    #needsplitting.append(line)
     
     #oh look, even more lists!
     beginners_list_final = []
@@ -76,41 +66,30 @@ def splitTitles(filename):
     for title in enders_list:
         enders_list_final.append(' '.join(title)) #stitch back into a phrase
 
-    return beginners_list_final, enders_list_final #this function spits out two lists
-
-
-
-def main(): #this is a conventional Python thing. 
-            #the main bit of the script is now in a function called main
+    return beginners_list_final, enders_list_final #return = what the function spits out
     
-    """
-    This function randomly chooses a first half of a talk title and a second half
-    of a talk title. Then it mashes them together and tweets it.
-    """
+    #this is the end of the splitTitles() function
 
-    beginners = splitTitles('ala_all-talk-titles.txt')[0] 
-    enders = splitTitles('ala_all-talk-titles.txt')[1]
 
-    #find the length of the files (number of lines)
-    beginners_length = len(beginners)
-    enders_length = len(enders)
+#run the splitTitles function and separate the beginning and ending halves
+beginners_and_enders = splitTitles('ala_all-talk-titles.txt')
+beginners = beginners_and_enders[0] 
+enders = beginners_and_enders[1]
 
-    #choose a random line by picking a number between 1 and the
-    #number of lines in the files. (yes, it's a bit convoluted)
-    title_first_part = beginners[random.randrange(1, beginners_length)]
-    title_last_part = enders[random.randrange(1, enders_length)]
+#find the length of the files (number of lines)
+beginners_length = len(beginners)
+enders_length = len(enders)
 
-    #putting it all together: what's the new talk title?
-    title = title_first_part + ' ' + title_last_part
-    print(title)
+#choose a random line by picking a number between 1 and the
+#number of lines in the files. (yes, it's a bit convoluted)
+title_first_part = beginners[random.randrange(1, beginners_length)]
+title_last_part = enders[random.randrange(1, enders_length)]
+
+#putting it all together: what's the new talk title?
+tweet_text = title_first_part + ' ' + title_last_part
+print(tweet_text)
+
+#tweet it
+api.update_status(tweet_text)
+print("...Tweeted!")
     
-    #tweet it
-    api.update_status(title)
-    print("Tweeted")
-
-
-if __name__ == "__main__": 
-	main() 
-    #another conventional Python thing. don't worry, 
-    # this bit makes no sense just looking at it
-
