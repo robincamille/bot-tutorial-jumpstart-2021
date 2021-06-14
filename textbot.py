@@ -2,14 +2,12 @@
 # -*- coding: utf-8 -*-
 
 # Twitter Bot Starter Kit: Bot 2
+# Lines of text
 
 # This bot tweets a text file line by line, waiting a
 # given period of time between tweets.
 
-# Try this with another .txt file!
-# Download a Project Gutenberg "Plain Text UTF-8" file,
-# open it in a plain text editor, remove junk at beginning,
-# and replace all double-linebreaks with single linebreaks.
+# Try this with another .txt file of your choosing!
 
 
 # Housekeeping: do not edit
@@ -21,7 +19,7 @@ api = tweepy.API(auth)
 
 
 # What the bot will tweet
-filename = open('twain.txt','r') 
+filename = open('phrases_coined_by_shakespeare.txt','r') 
 tweet_text = filename.readlines() 
 filename.close()
 
@@ -29,7 +27,7 @@ filename.close()
 for line in tweet_text[0:5]: # Will only write first 5 lines
     api.update_status(status=line)
     print(line)
-    time.sleep(2) # Sleep for 2 seconds
+    time.sleep(5) # Pause for 5 seconds
 
 print("All done!")
 
