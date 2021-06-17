@@ -70,26 +70,20 @@ This script is a basic Twitter bot. It will tweet three things from a **list** i
 
 ## Intermediate bot: textbot.py
 
-This script sends out five tweets from the first five lines of an external .txt file
+This script sends out five tweets from the first five lines of an external .txt file, `phrases_coined_by_shakespeare.txt`
 
 1. Go to the bot-tutorial-jumpstart folder. Click on `textbot.py`
 
-2. Also look at `twain.txt` to see the text
+2. Also look at `phrases_coined_by_shakespeare.txt` to see the text
 
 3. Take a look at both files and try to figure out what it's doing. Use the comments (preceded by #) for context.
 
 4. Select `Run`
 
 *Change it up!*
-- New text source
-  - Go to http://gutenberg.org and choose a different text for your bot to tweet. Pick the "Plain Text UTF-8" option when selecting a text format.
-  - Open a text editor. Copy and paste your gutenberg.org text (or any text of your choosing) into this blank file
-  - Remove junk at the beginning (and the end) of the file. Save the file as a .txt
-  - Replace double linebreaks with single linebreaks. If your file is very short you can maybe do this manually. If the file is very long, you can use advanced find/replace
-  - In textbot.py, replace `twain.txt` with the `newfilename.txt`, then go to town
 - Make the bot send more or fewer tweets, or change which lines, by editing the numbers in `for line in tweettext[0:5]`. 
    - `[0:5]` means from the first thing up to (but not including) the #5 thing. Programming languages consider 0 to be the first number, so what we'd call "line one" is actually "line zero" to the computer, and "line six" to humans is "line five" to the computer.
- 
+ - Make a new .txt file for the bot to tweet from. For example, pick a book or poem from gutenberg.org. Then, in textbot.py, replace `phrases_coined_by_shakespeare.txt` with the `newfilename.txt`
  
 ## Advanced bot: talk-mashup-bot.py
 
