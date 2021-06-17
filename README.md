@@ -93,11 +93,11 @@ This script sends out five tweets from the first five lines of an external .txt 
  
 ## Advanced bot: talk-mashup-bot.py
 
-This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First, it takes a list of talks and splits those titles into potential beginnings and endings. Then, it chooses a random beginning and a random ending, smushes them together into a new talk title, and tweets it. This script also introduces a function, splitTitle, and demonstrates how to choose a random item in a list using Python's *random* library.
+This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First, it takes a list of talks and splits those titles into potential beginnings and endings. Then, it chooses a random beginning and a random ending, smushes them together into a new talk title, and tweets it. This script also introduces a function, `splitTitle()`, and demonstrates how to choose a random item in a list using Python's `random` library.
 
 *Change it up!*
-- In the tweet (line 94), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
-- Add a new "splitting point" to the list `split_at`, like "with."
+- In the tweet (line 89), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
+- Add a new "splitting point" to the list `split_at`, like the word "with."
 - Use another .txt file instead of `ala_all-talk-titles.txt`. For example, make a new .txt file with movie names or book titles. 
 - Advanced: Some parts of this code are repetitive. Use a `for` loop in the part of the script that makes `beginners_list_final` and `enders_list_final` so that lines of code don't repeat.
 
