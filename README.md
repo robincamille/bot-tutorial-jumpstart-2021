@@ -28,16 +28,6 @@ Get this code onto your local machine.
 
 3. Navigate into that repository with the command `cd bot-tutorial-jumpstart-2021`
 
-## Running Code in VS Code: test.py (optional)
-
-To test things out and get familiar with how we will be running code for this workshop, follow these steps:
-
-1. Using your finder or search box, find the folder on your desktop. Open the folder and open the file test.py in Visual Studio Code.
-2. To run the code, click the green triangle in the upper right corner of the VS Code window. 
-3. Look for “Hello, there!” printed in the Terminal part of this window (the lower half). 
-
-[View an annotated screenshot of how to edit and run Python code in VS Code](http://robincamille.com/ncsu/vscode_screenshot_python.png)
-
 ## Get credentials from your Twitter account 
 Give your Twitter script the passwords it needs to send tweets via code instead of using the Twitter website. (These steps may have changed since they were written, as Twitter is continually updating their developer account process.)
 
