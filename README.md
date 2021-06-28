@@ -26,7 +26,7 @@ Get this code onto your local machine.
 - Select the green "Code" button and copy the URL there, which should end in .git
 - In your terminal [mac] or command line [windows], navigate to the folder where you  want this repository to live (your Desktop, for example), and then run the following command to clone the repository to that location: `git clone [repository url ending in .git]`
 
-3. Navigate into that repository with the command `cd bot-tutorial-jumpstart`
+3. Navigate into that repository with the command `cd bot-tutorial-jumpstart-2021`
 
 ## Running Code in VS Code: test.py (optional)
 
