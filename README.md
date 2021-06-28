@@ -22,7 +22,7 @@ Get this code onto your local machine.
 1. Fork this repository by clicking the button labeled 'fork' in the top right corner of this window. This will add this repository to your own GitHub account. 
 
 2. Clone the repository to your local machine.
-- Go to the repository in your account: github.com/(your account name)/bot-tutorial-jumpstart
+- Go to the repository in your account: github.com/(your account name)/bot-tutorial-jumpstart-2021
 - Select the green "Code" button and copy the URL there, which should end in .git
 - In your terminal [mac] or command line [windows], navigate to the folder where you  want this repository to live (your Desktop, for example), and then run the following command to clone the repository to that location: `git clone [repository url ending in .git]`
 
@@ -58,7 +58,7 @@ Give your Twitter script the passwords it needs to send tweets via code instead 
 
 This script is a basic Twitter bot. It will tweet three things from a **list** inside the script.
 
-1. Go to the bot-tutorial-jumpstart folder. Click on `listbot.py` to see the code
+1. Go to the bot-tutorial-jumpstart-2021 folder. Click on `listbot.py` to see the code
 
 2. Take a look at the script and try to figure out what it's doing. Use the comments (preceded by #) for context.
 
@@ -72,7 +72,7 @@ This script is a basic Twitter bot. It will tweet three things from a **list** i
 
 This script sends out five tweets from the first five lines of an external .txt file, `phrases_coined_by_shakespeare.txt`
 
-1. Go to the bot-tutorial-jumpstart folder. Click on `textbot.py`
+1. Go to the bot-tutorial-jumpstart-2021 folder. Click on `textbot.py`
 
 2. Also look at `phrases_coined_by_shakespeare.txt` to see the text
 
@@ -90,7 +90,7 @@ This script sends out five tweets from the first five lines of an external .txt 
 This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First, it takes a list of talks and splits those titles into potential beginnings and endings. Then, it chooses a random beginning and a random ending, smushes them together into a new talk title, and tweets it. This script also introduces a function, `splitTitle()`, and demonstrates how to choose a random item in a list using Python's `random` library.
 
 *Change it up!*
-- In the tweet (line 89), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
+- In the tweet (`tweet_text` on line ~89), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
 - Add a new "splitting point" to the list `split_at`, like the word "with."
 - Use another .txt file instead of `ala_all-talk-titles.txt`. For example, make a new .txt file with movie names or book titles. 
 - Advanced: Some parts of this code are repetitive. Use a `for` loop in the part of the script that makes `beginners_list_final` and `enders_list_final` so that lines of code don't repeat.
