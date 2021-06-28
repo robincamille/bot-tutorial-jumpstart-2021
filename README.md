@@ -1,4 +1,4 @@
-# Currently being revised! 
+# Build a Twitter bot (intro to Python)
 
 Twitter bot tutorial: Jumpstart Program 2021 edition
 
