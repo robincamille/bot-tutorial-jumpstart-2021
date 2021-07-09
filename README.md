@@ -56,7 +56,7 @@ This script is a basic Twitter bot. It will tweet three things from a **list** i
 
 *Change it up!*
 - In `tweet_list`, add new things for your bot to tweet
-- Increase/decrease time between tweets in `time.sleep(15)` (15 is the number of seconds) 
+- Increase/decrease time between tweets in `time.sleep(5)` (5 is the number of seconds) 
 
 ## Intermediate bot: textbot.py
 
@@ -101,7 +101,7 @@ You've made changes to these scripts since you first forked them. Now you'll pra
 
 At some point, you'll want the changes you've committed on your machine to appear on your GitHub repository. 
 
-1. In the Terminal window again, type `git push origin master` and hit the return key. You should see a message of success.
+1. In the Terminal window again, type `git push origin main` and hit the return key. You should see a message of success.
 
 
 ---
