@@ -35,12 +35,12 @@ def splitTitles(myfile):
 
     for line in talk_titles:
         line = line.split() #turn the string into a list of words ['like','this']
-        middle = len(line) / 2 #find a rough halfway point in line
-        middle = int(middle) #turn that point into an integer instead of a decimal
+        midpoint = len(line) / 2 #find a rough halfway point in line
+        midpoint = int(midpoint) #turn that point into an integer instead of a decimal
 
         #stitch together the split-up words, one for the first half and one for the second
-        beginner = " ".join(line[:middle]) #the join syntax sucks, no one can ever remember it
-        ender = " ".join(line[middle:])
+        beginner = " ".join(line[:midpoint]) #the join syntax sucks, no one can ever remember it
+        ender = " ".join(line[midpoint:])
         
         #add the talk halves to the two lists
         beginners_list.append(beginner) 
