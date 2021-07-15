@@ -20,7 +20,7 @@ api = tweepy.API(auth)
 
 # What the bot will tweet
 filename = open('phrases_coined_by_shakespeare.txt','r') 
-tweet_text = filename.readlines() 
+tweet_text = filename.readlines() #this creates a list: one line → one item
 filename.close()
 
 # loop through the tweet_list
