@@ -83,6 +83,7 @@ This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First
 - In the tweet (`tweet_text` on line ~70), add a bit of text that comes before the new talk title, like "Your new ALA session is..."
 - Use another .txt file instead of `ala_all-talk-titles.txt`. Use one you have on your computer, or make a new .txt file with movie names or book titles. 
 - Make a longer title. Above line ~67, add a `title_middle_part` that picks another random line from `beginners` or `enders` (up to you).
+- Advanced: Use the splitTitles() function on two different .txt files. Mash together a random item from the first .txt file with a random item from the second .txt file.
 - Very advanced: Some parts of this code are repetitive. Use a `for` loop in the part of the script that picks a random item from `beginners` and `enders` and stitches it together, lines ~61-70. Or you could make a new function.
 - Very advanced: In the `splitTitles()` function, split titles into thirds instead of halves (starting at line ~38). Make another list called `middle_list` (involves some math and finagling to replace `midpoint`.) Then find a way to pick a random item from your list of middle parts, and work that into your tweet.
 
