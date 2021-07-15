@@ -86,27 +86,23 @@ This script mixes up talk titles from ALA Annual Conferences 2016–2021.  First
 - Advanced: Some parts of this code are repetitive. Use a `for` loop in the part of the script that makes `beginners_list_final` and `enders_list_final` so that lines of code don't repeat.
 
 
-## Commit your changes with Git 
+## Commit & push your changes with Git 
 
 You've made changes to these scripts since you first forked them. Now you'll practice *committing* and *pushing* those changes so you have a record of your versions.
 
-1. In the Terminal window of VS Code, type `git status` and hit the return (enter) key to see the files you've changed.
-1. Then type `git add listbot.py` (or another filename) and hit return
-1. (Optional) Type `git status` and hit return again to check what that did
-1. Type `git commit -m "Changed what the bot tweets"` (or another way to describe your change) and hit return
+[View an annotated screenshot of how/where to use Git in VS Code](http://robincamille.com/ncsu/vscode_screenshot_git.png)
 
-[View an annotated screenshot of how to use Git in VS Code](http://robincamille.com/ncsu/vscode_screenshot_git.png)
+In the Terminal window of VS Code, type these lines, hitting return after each one:
+- `git add .`
+- `git commit -m "My bot updates"`
+- `git push origin main`
 
-### Push your changes with Git 
-
-At some point, you'll want the changes you've committed on your machine to appear on your GitHub repository. 
-
-1. In the Terminal window again, type `git push origin main` and hit the return key. You should see a message of success.
+You should see a message of success.
 
 
 ---
 
-This tutorial and its updated materials were originally put together by Robin Davis (@robincamille) and Mark Eaton (github.com/MarkEEaton) for a pre-conference workshop at [Code4Lib 2018](http://2018.code4lib.org/).
+This tutorial and its updated materials were originally put together by Robin Davis (@robincamille) and Mark Eaton (github.com/MarkEEaton) for a pre-conference workshop at [Code4Lib 2018](http://2018.code4lib.org/). Tori Culler and Robin Davis adapted this workshop for the Library Technology Career Jumpstart Program in 2020.
 
 *See original repo: https://github.com/robincamille/bot-tutorial*
 
