@@ -11,7 +11,7 @@
 # them together into a new talk title, and tweets it.
 
 #Housekeeping
-import random, string
+import random, string, re
 import tweepy
 from credentials import *
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
@@ -30,66 +30,47 @@ def splitTitles(filename):
     talk_titles = talk_title_file.readlines() #this creates a list: one line → one item
     talk_title_file.close()
 
-    #create new blank lists
+    #create empty lists
     beginners_list = []
     enders_list = []
-    unsplit_titles = []
 
-    #yet another list! this one is of the words we could split a title on
-    split_at = ['at','of','for','on','and',':','!','?']
-
-    #this next block of code is iterating over every talk title and splitting
-    #them up where it can. it's slightly complex; don't feel like you have 
-    #to be able to decipher it for now.
     for line in talk_titles:
-        line = line.split() #turn title into a list of words
-        i = -1
-        for word in line:
-            i += 1
-            if word.lower() in split_at: #split at known splitting points
-                beginners_list.append(line[0:i+1])
-                enders_list.append(line[i+1:])
-            else: #if title doesn't include "at" or other splitting points...
-                if len(line) > 4: #titles of <5 words tend to be names, or might split uninterestingly
-                    pass
-                else:
-                    mid = len(line) / 2 #find rough halfway point in line
-                    mid = int(mid) #turn that point into an integer
-                    beginners_list.append(line[:mid]) #split title along that halfway point
-                    enders_list.append(line[mid:])
-    
-    #oh look, even more lists!
-    beginners_list_final = []
-    enders_list_final = []
-    for title in beginners_list:
-        beginners_list_final.append(' '.join(title)) #stitch back into a phrase
-    for title in enders_list:
-        enders_list_final.append(' '.join(title)) #stitch back into a phrase
+        line = line.split() #turn into a list of words
+        middle = len(line) / 2 #find rough halfway point in line
+        middle = int(middle) #turn that point into an integer instead of a decimal
 
-    return beginners_list_final, enders_list_final #return = what the function spits out
-    
+        #stitch together the split-up words, one for the first half and one for the second
+        beginner = " ".join(line[:middle]) #this syntax sucks, no one can ever remember it
+        ender = " ".join(line[middle:])
+        
+        #add the talk halves to the two lists
+        beginners_list.append(beginner) 
+        enders_list.append(ender)
+
+    return beginners_list, enders_list #return = what the function spits out to use
+
     #this is the end of the splitTitles() function
 
 
-#run the splitTitles function and separate the beginning and ending halves
+# run the splitTitles function and separate the beginning and ending halves
 beginners_and_enders = splitTitles('ala_all-talk-titles.txt')
 beginners = beginners_and_enders[0] 
 enders = beginners_and_enders[1]
 
-#find the length of the files (number of lines)
+# find the length of the lists (number of lines)
 beginners_length = len(beginners)
 enders_length = len(enders)
 
-#choose a random line by picking a number between 1 and the
-#number of lines in the files. (yes, it's a bit convoluted)
+# choose a random line by picking a number between 1 and the
+# number of lines in the lists. (yes, it's a bit convoluted!)
 title_first_part = beginners[random.randrange(1, beginners_length)]
 title_last_part = enders[random.randrange(1, enders_length)]
 
-#putting it all together: what's the new talk title?
+# putting it all together: what's the new talk title?
 tweet_text = title_first_part + ' ' + title_last_part
 print(tweet_text)
 
-#tweet it
+# tweet it
 api.update_status(tweet_text)
 print("...Tweeted!")
     
