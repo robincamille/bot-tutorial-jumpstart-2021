@@ -37,9 +37,9 @@ Give your Twitter script the passwords it needs to send tweets via code instead 
 1. On the app's `Settings` page, scroll down to App Permissions and edit it, changing it from "Read only" to "Read & Write"
 
 1. Find the app's `Keys and Tokens` page (the tab next to the app's Settings)
- - (Re)generate "Consumer API key & secret" and "Access token & secret"
+ - (Re)generate "Access token & secret"
 
-2. Copy Consumer API Key/Secret and Access Token/Secret to **credentials.template** 
+2. Copy API Key/Secret and Access Token/Secret to **credentials.template** 
 
 3. Save that file as a new file named **credentials.py**
 - (Why save with a new filename? Later on, you'll commit and push the changes you make to these files using Git, and those changes will be publicly viewable on your GitHub account. But you don't want to share your bot account's credentials/passwords. The file called .gitignore has credentials.py listed as a file to ignore, so Git will never even see it, and it won't get sent to your GitHub account.)
