@@ -1,0 +1,335 @@
+Performance of Python/Django vs. ColdFusion
+Automating Audio & Moving Image Access Copy Creation with Elastic Transcoder, in Seussian Rhyme
+A Single Page Web App to Inventory 900,000 Books!
+Building Quick and Dirty Library Tools with Google Apps Script
+Automated Workflows for Academic Preservation Trust
+Transmog: from MS Word documents to structured XML
+Protecting Me How?  Understanding the Function of Privacy-Protection Technology Tools 
+Practical Docker... Really
+Implementing Proximity Beacons at an Academic Library
+Do digital screens have electric dreams? From community research to prototyping a digital exhibit service at EPL
+Re-Identification of Sci-Hub Usage Logs: Privacy Implications for Libraries
+Digital Augmentation of Physical Exhibits
+Using Continuous Integration to Accelerate Software Delivery
+Destroying Impostor Phenomenon in Code4Lib and Ourselves
+Programmer/Analyst; System and Web Development Analyst
+Developing Library Tools With Ex Libris’ REST APIs in a Consortium Environment
+ResourceSync: an unexpected ally for addressing the IR Autoload challenge
+Academic Projects Developer, Digital Collections and Scholarship Librarian
+Going off the Rails on a Jekyll Train - Creative Uses of Static Site Generators
+The Scholar’s Backpack: Using virtual environments to support modern research practice.
+My Mail Merge Does Data Mapping, Does Yours?
+The BagIt Ecosystem in 2017
+Out-of-the-Box, In-a-Box, or Outside the Box? Lessons from an Environmental Scan of Digital Library Systems
+FINNEGAN: Taking the work out of Library and Publishing Workflows
+Creating Three-Sixty Objects For Marist Archives Using Open Source JQuery Reel
+Boxing the Hydra: Defending against Denial of Service attacks
+Code 4 Coll Dev
+Every Library is a Technology Organization: Bringing DevOps principles to libraries
+#WomenInTech & beyond: Salary negotiation process, how to not lose your head
+Creating Streamlined Workflow across Library Services: Case Study at California State University, Fresno
+Altmetrics: online media metrics tools expanding the librarian's role
+Developing Error Checks for Streaming Video MARC Files: PyMARC vs. Out of the Box Solutions
+Coordinated Discovery: UW-Madison's approach to building its library discovery platform
+Intentionally Horrible Markup: Strategies for Testing and Enhancing Web Accessibility on a Larger Scale
+ActionCable: rolling out the real-time web
+For Beginners -- No Experience Necessary
+Strategies and Tools for Performance Tuning
+Supporting the Web Annotation Framework in Islandora
+Information Architecture: what is it and where does it fit? 
+Integrating Fedora and AWS through Lambda
+Choose the Right Problem: A user-centered approach to library services
+Changing the Conversation: How language influences the software creation process
+Take a Hike : Using Journey Maps to Inform Good User Experiences
+A DIY Remodeling project for Cultural Heritage Collections
+Frictionless Data
+Your library as a start-up
+Research Data Management and Preservation Services at a Specialized Science Research Institution 
+Digital Infrastructure for Library Values: Update on the IMLS National Digital Platform
+Let’s Get Busy:  Building a Modern Institutional Repository Using a Public Cloud and Open Platforms
+Enriching Search with Domain Ontologies: Designing Measures of Similarity 
+The Most Accessible Catalog Results Page Ever
+Migrating to Dataverse 4 at Scholars Portal
+Integrating Born-Digital into Archival processing workflows
+An NLP Primer for Library Technologists
+Spinning Communication to Get People Excited about Technological Change
+From crowdsourcing to standardization: bridging the gap to open data
+Take Your Relationships to the Next Level: Transforming Relational Data to Linked Data using ETL Processes
+In(di)gestion: Toward a More Productive Workflow for Harvesting Metadata into Calisphere
+How the distributed web could bring a new Golden Age for Libraries
+Moving Beyond the Lone Digital Archivist Model Through Collaboration and Living Documentation
+Maintaining a Kick A** Tech Team and Organization
+Which One First When You Don't Have Either? Service Workflow and Application Design
+Living Dangerously: Skipping the Test Phase in a Web Development Project -- Successes and the Opposite
+Build your own software, yes, build it
+We All Live in a Community Submarine
+Pop-Up sessions: what are they and why you should use them for your user experience design project
+The aimHI Summer Incubator Program: A government-civic partnership to hack the innovation and diversity pipeline
+SolrMarc: the Next Generation
+Making Your Library IT Defensible: 5 Easy Things To Prevent 85% of All Targeted Cyber Intrusions 
+Боже Мой!: Yet Another Finding Aid Redesign, now with ArchivesSpace
+How To Create A Micro-Volunteering Project
+Reimagining the slideshow: using reveal.js to create Choose Your Own Adventure library tutorials
+The real price of 3D printing
+Historical State Search: Deploying Bento-Box Search Style for Special Collections
+Fostering a Departmental Culture of Peer Mentorship in Software Development
+Natural Language Processing: Parsing Through The Hype
+Ostriches, minotaurs, ghosts and fossils in the brave new metadata world
+Participatory User Experience Design with Underrepresented Populations: A Model for Disciplined Empathy
+A technical debt approach to metadata management
+Introducing Archival Principles into UCLA Undergraduate Courses with Digital Humanities Projects
+Apps on a Platform: Thinking Outside the Monolithic Box
+“Perfect” Data in a Crowd-Sourced, Open-Access World:  Perspectives from the New Schoenberg Database of Manuscripts Project
+You’ll probably like this one, too: Using circulation data to automate recommendations in a special collections library
+BibCard & the Bibliographic Data Crawl for Library Discovery
+Automating ExLibris Voyager Circulation Notifications
+900 of us are maintaining a 3,400 item dataset on GitHub
+For Beginners -- No Experience Necessary
+An Open Science Framework for Solving Institutional Research Challenges: Supporting the Institutional Research Mission and the Full Project Lifecycle
+Deep Learning and Historical Collections
+Librarian, Coder, Teacher: Developing a New-to-Programming Undergraduate Courses
+Building ScholarsDB: Re-envisioning a Simple Faculty Publications Database
+Pycallnumber! For Tricky Call Numbers
+Make Your Library an Open Data Superstar
+Gamification of Library Orientation and Instruction
+Code4Bib[liometrics]
+Using Elastic Search with Kibana for a Technology Watch Portal
+Configuring Public Knowledge Project's Open Conference Systems for Digital Scholarship
+Python for Data Transformation
+Low-Cost Preservation Environment Monitoring with the Raspberry Pi
+Accessibility and eBooks: What Librarians Should Know and How they can Serve their Users
+Detecting Anomalous Usage Activity for JSTOR to Support Library Decision Making
+Av.Preservation.With.Open.Formats.S13E01.FFV1[cellar].mkv
+Deep Learning for Libraries
+Auditing algorithms in commercial discovery tools
+GIVE BACK! Yes, your code is already good enough!
+The Future is Serverless, Codeless, Drag And Drop
+Old stuff, new schtick: using JIRA to manage archives workflows
+Advances in Data Mining and Machine Learning for Chat Sentiment and Library Account-Based Recommendations
+Digitizing Arabic-language Scholarly Content: An Investigation (JSTOR)
+Algorithms and Democracy /Coding for Freedom
+Tele like it is: making a case for telecommuting
+Is it safe? Is it secret
+Building an LDA topic model using Wikipedia
+One step at a time: Laying the groundwork for Linked Data with URIs
+Coding with Only Your Browser
+Publishing from your Online Git Repository
+Automate Library Applications with Google Apps Script
+The Authority Decentralization of Blockchains and How it Applies to Libraries.
+Clojure Super Powers
+Big Data In Libraries: Creating An Analytics Hub To Reveal Patterns, Trends, And Associations In Your Library
+Ten Ways to Improve EZproxy Security
+Hold the soup! Using XPath within the Python lxml module
+Tree Diagram in D3.js
+Open Access Button: Putting OA into Interlibrary Loan
+Don't Get MADS About It
+Cryptography 101
+Essentialism and Digital Preservation: A Lightweight Solution for Digital Asset Management
+The ad hoc technologist: Personal competencies and professional responsibilities
+So you want to migrate your data from DSpace to Hyrax? Here’s our approach!
+Easter Fool's Day, or, the Chocolate Carrot on a Stick
+Low Tech Approach to Beginning a Redesign
+Your Forms Can Just Be Made Better
+Are You a “Solo” Librarian Working on Cutting-Edge Technology?
+Mapping the Research Landscape with Bibliometric Tools
+From problems to solutions: A case study in building the right thing
+Freaky Fast: How PhoneGap Made it Easy to Create a Mobile App on iOS and Android
+The Best Pick-up Line Ever: How to Mine Your Line-Oriented Files to Better Understand Your Customers
+Using a large metadata aggregation to improve data reconciliation
+HOOT + ELF + FOLIO = Awesome Borrowing Experience for Consumer Electronics
+LOCKSS System Re-Architecture
+LOCKSS Plugin Architecture
+Bonding with Project Electron: Building a Born-Digital Records Transfer App Together
+APIs at the Core: How FOLIO Wants to Engage You In Creating New Library Services
+Creating Persistent Links for ARKival Resources
+Data Analytics and Patron Privacy in Libraries: A Balancing Act
+Leveling Up in LibTech - Administration and Non-Administration Paths For Your LibTech Career
+Airing our Dirty Laundry: Digital Preservation Gaps and How We're Fixing Them
+Information extraction techniques for knowledge graph development
+Web Archiving Interoperability
+Free metadata from Crossref
+Massively Responsive Web Design
+Avro 101: Overview and Implications for Metadata Processing
+Open Social Tagging in TagTeam
+Save Homestar Runner!: Preserving Flash on the Web
+Scaling EaaS – An Introduction
+From Wikidata to Scholia: creating structured linked data to generate scholarly profiles
+Sunsetting: Strategies for Portfolio Management and Decommissioning Projects
+Systems thinking: a practical field guide
+Use vs. Reuse: Assessing the value of our digital collections
+Jitterbug into my brain: something's bugging me, and it's AV
+DevOps for Library Operations & Systems
+Web Archiving and You / Web Archiving and Us
+Framing the Museum GitHub Repository
+Stay JSON Schemin’: An open-source metadata validation workflow for large-scale media preservation projects
+Non-Descriptive Metadata in RDF
+Databases for Days
+Beyond Keywords: Making Search Better
+Collaboratively building the Digital Inclusion Resource Library
+A Google Apps Script Story
+How does Search work, anyhow?
+Schema-now or Schema-later -- the Myth of Unstructured Data
+Beyond Open Data
+Head in the cloud, or feet on the ground? Making preservation hardware platform choices.
+Building a cloud platform using AWS for data analysis of Digital Library
+Better Interviewing and Onboarding:  What we've done to improve our interview process and to make it easier for new hires to integrate into our teams
+OSSArcFlow: Modeling Digital Curation Workflows for Born Digital Content
+Dealing with Technical Debt a Point-of-View: DevOps and Managerial
+Building an Event System
+Dreaming about Book Groups
+GDPR for American Public Libraries
+Library Website Navigation
+Islandora +1M: ingesting a million objects takes more than time
+Using Python to Assess Holding Counts
+A Visualized Analysis of Lynda.com Use at Elon University      
+Using Twitter to understand our community: Text Mining Analysis of Tweets
+Customizing Your Web-Based ILS Experience with Nativefier and Electron
+Aggregation Without Aggravation: auditing metadata at scale
+Human-Centered Tech Help Responses: Collaborating with Information Desk Staff to Create Standards for Customer-Facing Technology Help Ticket Interactions and Building Buy-In from the Ground Up
+Optimizing Library Web Content for Voice Search
+Automated Testing of Digital Repository Software Using Selenium and Behave
+Taming the Elephant: Tools for Improving Code Quality in PHP
+Three Strategic Interventions to Improve the Findability of Enterprise Content
+After the conference: Developing and maintaining your local code4lib community
+Ethics for information professionals
+Enrich Library Collection Analysis using Python
+Project ReShare: Development & Piloting of an Open Source Resource Sharing Platform
+Bridge2Hyku: An IMLS-funded Content Migration Toolkit
+Code It Yourself! Teaching Collections Staff to Script
+Using Python to collect COUNTER reports 
+Configuring, Re-configuring and Extending a Repository System with Docker and Docker Compose
+Building A Better Database List with APIs
+"Blockchain for Libraries" is Snake Oil
+Who counts the COUNTERs?
+Building REST API-backed Single Page Applications (SPAs) with Vue.js
+Using MediaWiki + WikiBase as a platform for library linked data: a pilot study
+The Websites that Librarians Love... but are they ACCESSIBLE?!?
+Automating link management: When institutional infrastructure works against you
+FOLIO MODULES & MORE: Open Source Software Development with FOLIO.org’s open-source, micro-services library platform 
+Get To Know WCAG 2.1
+FICAT : Developing and Deploying a Faculty Involved Collection Analysis Tool
+Application of Boost Algorithm in Demand-Driven Acquisitions Prediction: A Machine-Learning Approach
+Building a Common Reading Robot: Creating Community Through Raspberry Pi
+Machine Learning and Metadata with the Charles Teenie Harris Archive
+Migrating Drupal to Jekyll and Gitlab
+Open Textbook Workbook: Keys to Successful Collaborative Open Educational Resource Generation
+Software development best practices for Information Literacy
+Programmatic approaches to bias in descriptive metadata
+Searching and Retrieving Information in Digital Libraries by an Innovative No-Segmentation Pattern Recognition.
+How Can We Identify Digital Cultural Heritage? From FAIR to FAIR4 Principles for Metadata Preservation
+Building an Inexpensive People Counter using Raspberry Pi
+Need a new discovery layer? TRLN Discovery project: software and AWS architecture overview.
+Improving Library Collections and Services Through Connected and Smarter Data
+Automating Chat Analysis
+From ILS to ArchivesSpace: Modeling, Migration and Maintenance
+Leveraging the Cloud
+Machine Learning based metadata generation for library archives
+De-Siloing Archival Description with ArchivesSpace
+Consortial discovery and resource sharing: making it happen with (mostly) standard tools
+Building static websites and leading librarians to a new level of project engagement
+Annotation of IIIF resources: Providing tools for the present while looking to the future
+Community-driven, community-owned open data: An open source tool for indexing data repositories
+The RIALTO research intelligence system
+FOLIO Update: Review of the current state and what’s on the roadmap for first implementers
+A two way street: vendor and library collaboration
+Algorithm Bias Study
+Providing Computational Access to Records of American Capital Punishment
+You're doing it wrong... you can do so much more with that!
+Shear forces: a conceptual model for understanding (and coping with) risk, change, and technical debt
+Looking for Some Hot Stuff: Collaborating on the Disco Index Project
+Technology Enabled Outreach Programs
+Distributed Fixity Service Based on LOCKSS Technology
+LOCKSS Architected As Web Services (LAAWS)
+Taking the plunge: deep learning in libraries
+Assembling a Modular Digital Repository Environment
+Ringers of Jupyter: The Jupyter Notebook As Faux Web App
+CollabVT: Build a efficient collaboration scholar environment for researchers 
+Scientific literature as data: helping shape science through table mining
+Bring on the barcodes!
+Natural Language Processing for Discovery of Born-Digital Records
+Of Ethics, Users, and Data: Building a National Conversation for Web Privacy and Web Analytics
+Deploying Modules in an Open Source Ecosystem: Building a SOLR Indexer on the FOLIO Platform
+Supporting the Evolution of a Library Research Platform
+Why building a complete index of open access to research articles is hard and how you can help
+Bringing All the peer reviewed science to All the libraries via Open Everything
+Webrecorder: Developing an Open-Source High-Fidelity Web Archiving Toolset
+If you give a mailing list a survey...
+Data Sonification: Making Library Data Ring with High Throughput Computing
+Quick tips for sustaining a software documentation initiative
+The Digital Is Critical: Designing Radical Library Systems
+On the Books: Jim Crow and Algorithms of Resistance
+Making available and aggregating the documentation of public museums in Brazil: the case of the Brazilian Museum Institute using the Tainacan plugin for Wordpress and the Linked.art conceptual model
+Accessibility in Hyku: A Newbie's Ongoing Journey
+Incorporating algorithms and machine learning into library collections & services
+Cohort4Lib
+Introducing Archipelago, a new open source repository solution
+FOLIO LSP: Implications of Being an Early Adopter
+Catching New Faculty Books with WorldCat and R
+Intellectual Freedom and Technology
+From Supercomputer to Static Site: Sustainably Presenting Computer Vision Research in Early Printed Books
+Maximizing Productivity:  Expediting Metadata Creation and Cleanup for Electronic Theses and Dissertations at Oklahoma State University
+Migrating clean data: Two stories from mess to success 
+Plaintext, HTML, PDF, and EPUB3: Who wins the Accessibility Games?
+Brace Yourselves, the Archives are Coming
+Measuring the Future at MSU Libraries
+It’s Gonna Be Metadata: Getting Libraries, Archives, and Museums *NSYNC
+Customizing WebPAC Pro for mobile-first design with Bootstrap
+Co-developing with our networks
+A journey, not a destination: towards a more user-centered library discovery experience
+Using DuraCloud's Sync Tool to Preserve Varied Digital Collections
+Web annotations: Lowering barriers to entry
+Drag Queen Story Hour: LGBTQ+ Programming for Your Libraries
+Who will keep it running?
+That time we fought off a Russian bot army (and you can too)
+Design Sprints for Democratization
+Scalable, sustainable, and serendipitous: DPLA’s intelligent recommender
+Starling: Simplified decentralized storage for digital preservation
+Tending the Hydra: Maintenance and Labor in Catalog and Discovery Ecosystems
+Implementing an Alternative Rails-based Digital Collections Architecture
+Ground Control to Major Project
+Stacks and Sutras: The University of Oregon’s Experiments in GLAM teamwork
+Archiving 250TB with AWS Glacier Deep Archive
+Is My Library in Good Hands?: Security and Privacy Best Practices Your Service Provider Should Follow
+Project ReShare: An open PALCI resource-sharing network based on FOLIO
+From Ground to Cloud, from Server to Serverless
+Koha adoption among academic libraries in Nigeria: A mirage or reality
+From CV to repository deposit: A workflow for automating retrieval of article metadata & publisher policies in R
+Open Source for Open Collaboration: Developing a Scalable Multi-tenant Hyku Repository for Consortia
+No Catalog? No Queries? No Problem! Building a DIY Discovery Service for the Prelinger Library.
+Accessibility Improvements in HathiTrust Digital Library
+The Evolution of a Descriptive Metadata Form
+Using Open Source Software and Data Fusion in LIS Environments to Answer Complex Questions
+Evaluating, Repairing and Enhancing Accessible PDF's
+Scaling the provision of AI-supported micro-credentials to library learners
+Archives Portal Europe – Integrating a few centuries of archival traditions
+Visualizing Archival Collections for Fun and (Non)Profit Using Google Data Studio
+Let’s Talk Git!: Investigating and Archiving the Scholarly Git Experience
+The Agile Librarian or The Library Dev Shop - Using Agile Methodology to Build a Digital Library
+Design for Diversity: Towards More Inclusive Information Systems
+Growing CollectionBuilder: Developing an Agile, Library-Centric Approach to Digital Collections and Scholarship Projects
+Launching a media wall in your library
+Statistical Approaches to Bibliographic Record Matching
+Imposter syndrome, vulnerability, and project management: Leading an institutional repository migration
+Picturing the Digitization Ecosystem
+Order from Chaos
+Data Visualization Dashboards in the library apps
+My attempt at building an open source journal recommender tool
+A New Approach to Old Metadata
+Publisher clusters and entities in WorldCat
+The day before you start as a manager
+It would be a shame to leave that on the shelf: research-driven development at UCLA Library
+The Gutenbergification: Updating a shortcode-based WordPress plugin for WP5
+Everything is Broken but by How Much, Exactly?
+British Book Illustration: Using Iconclass to Extend Access to 17th-Century Visual Culture
+Neo4J for Libraries: The Promising Potential and Current Limitations of Graph Databases
+Bepress to DSpace Migration: A Case Study
+Sorin: a new collaborative research web application
+Cupper and leecher, tinman and shrimp fiend: Data science tools for examining historical occupation data
+AI is such a tool: Keeping your machine learning outputs in check
+Using Mana-kb to Crowdsource Library Data
+Visualizing Moving Image Archives
+Preserving Basque Digital Photographs:Dealing with legacy formats
+Leveraging Deep Learning toward Greater Discoverability and Accessibility of Federal Depository Collections
+Using Temporal Network Analysis to Uncover Bias in Collections
+Amplifying Productivity & Joy: Lightweight Tools & Techniques to Help Teams Improve Collaboration & Communication
+ARKimedes: Building an Archival Resource Key management library in Python 

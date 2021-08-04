@@ -53,7 +53,8 @@ def splitTitles(myfile):
 
 # run the splitTitles function and separate the beginning and ending halves
 # into two new lists, beginners and enders
-beginners_and_enders = splitTitles('ala_all-talk-titles.txt')
+# beginners_and_enders = splitTitles('ala_all-talk-titles.txt')
+beginners_and_enders = splitTitles('code4lib-proposals.txt')
 beginners = beginners_and_enders[0] 
 enders = beginners_and_enders[1]
 
